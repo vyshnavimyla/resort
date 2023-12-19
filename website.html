@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>resort page</title>
+<style>
+    .container {
+        background-image: url(img1.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    
+    }
+    .nav-bar{
+        font-size: 20px;
+        display:flex;
+        justify-content: space-between;
+        color: goldenrod;
+    
+    }
+    .nav-text{
+        padding: 5px;
+        text-decoration: underline;
+
+    }
+.checkin-container{
+    background-color: goldenrod;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 50px;
+    opacity: 0.7;
+}
+   .checkin-text{
+    padding: 10px;
+    background-color:aliceblue;
+    /* height: 50px; */
+    /* width: 50px; */
+    border-radius: 5px;
+   } 
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <span class="nav-text"style="margin-left: 900px;">Home</span>
+            <span class="nav-text">About</span>
+           <span class="nav-text">Contact Us</span>
+            <span class="nav-text">Book Now</span>
+                
+        </div>
+    
+
+    <div style="height: 300px;padding-top: 40px; margin-left: 120px;">
+        <span style="font-size: 90px; font-family: Cambria, Cochin, Georgia, Times, ; font-style: italic;">
+            Roxandrea
+        </span><br>
+            <span style="font-size: 15px;">
+                MORE THAN AN EXPERIENCE  
+            </span>
+        </div>
+            <div class="checkin-container">
+                
+            <div style="width: 200px;">
+                <span class="checkin-text"width:400px>check in date</span>
+                <span>
+                    <label for="datepicker"></label><br><br>
+                    <input type="date">
+               </span>
+            </div>
+
+               <div style="width: 200px;">
+                 <span class="checkin-text" width:600px>check out date</span>
+                <span>
+                    <label for="datepicker"></label><br><br>
+                    <input type="date">
+                </span>
+                </div>
+               <div style="width: 200px;"> 
+                <span class="checkin-text" width:600px>rooms</span>
+                <label for="dropdown"></label><br><br>
+                <select name="suite" id="dropdown">
+                    <option value="luxary">luxary Room</option>
+                    <option value="AC">AC Room</option>
+                    <option value="standard">standard</option>
+                </select>
+            </div>
+            
+                <div style="width: 200px;"><span class="checkin-text" width:600px >Check Availability</span></div>
+                
+
+            </div>
+
+        </div>
+
+    </div>
+</body>   
+</html>
